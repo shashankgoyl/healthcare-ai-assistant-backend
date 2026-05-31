@@ -24,7 +24,7 @@ from app.config import (
 
 logger = logging.getLogger(__name__)
 
-#   System prompt     
+# ── System prompt  ──────
 
 SYSTEM_PROMPT = """You are a knowledgeable and professional healthcare information assistant.
 

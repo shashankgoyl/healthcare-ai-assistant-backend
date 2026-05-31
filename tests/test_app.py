@@ -14,12 +14,12 @@ from app.rag import chunk_text, score_confidence
 from app.agent import detect_intent, check_available_slots, _extract_department
 
 
-#   FastAPI test client  
+# ── FastAPI test client  
 
 client = TestClient(app)
 
 
-#   RAG unit tests     
+# ── RAG unit tests  ─────
 
 class TestChunkText:
     def test_basic_chunking(self):
@@ -64,7 +64,7 @@ class TestScoreConfidence:
         assert score_confidence(0.50) == "medium"
 
 
-#   Agent unit tests    
+# ── Agent unit tests  ───
 
 class TestDetectIntent:
     def test_appointment_keywords(self):
@@ -109,7 +109,7 @@ class TestCheckAvailableSlots:
             assert isinstance(slot["times"], list)
 
 
-#   API endpoint tests   
+# ── API endpoint tests  ─
 
 class TestHealthEndpoint:
     def test_health_returns_200(self):

@@ -20,7 +20,7 @@ from app.rag import retrieve_relevant_chunks, score_confidence
 
 logger = logging.getLogger(__name__)
 
-#   Intent detection   
+# ── Intent detection  ──
 
 APPOINTMENT_KEYWORDS = {
     "appointment",
@@ -65,7 +65,7 @@ def detect_intent(question: str) -> str:
     return "rag"
 
 
-#   Mock appointment tool                 
+# ── Mock appointment tool ─────────────────────────────────────────────────────
 
 DEPARTMENTS = {
     "cardiology": ["Mon", "Wed", "Fri"],
@@ -162,7 +162,7 @@ def _format_slots_response(department: str, slot_data: Dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-#   Main agent entry point                 
+# ── Main agent entry point ────────────────────────────────────────────────────
 
 async def process_question(question: str) -> Dict[str, Any]:
     """
@@ -177,7 +177,7 @@ async def process_question(question: str) -> Dict[str, Any]:
     intent = detect_intent(question)
     logger.info("Detected intent: %s for question: %s", intent, question[:80])
 
-    #   Appointment routing                
+    # ── Appointment routing ──────────────────────────────────────────────────
     if intent == "appointment":
         department = _extract_department(question)
         logger.info("Routing to appointment tool for department: %s", department)
@@ -194,7 +194,7 @@ async def process_question(question: str) -> Dict[str, Any]:
             "slot_data": slot_data,
         }
 
-    #   RAG routing    
+    # ── RAG routing  ───
     logger.info("Routing to RAG pipeline.")
     chunks, avg_similarity = retrieve_relevant_chunks(question, top_k=TOP_K_RESULTS)
 

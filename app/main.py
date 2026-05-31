@@ -22,13 +22,13 @@ from app.config import ALLOWED_ORIGINS, LOG_FORMAT, LOG_LEVEL
 from app.agent import process_question
 from app.rag import ingest_documents, get_collection_stats
 
-#   Logging setup     
+# ── Logging setup  ──────
 
 logging.basicConfig(level=getattr(logging, LOG_LEVEL, logging.INFO), format=LOG_FORMAT)
 logger = logging.getLogger(__name__)
 
 
-#   Lifespan      
+# ── Lifespan  ───────────
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -37,7 +37,7 @@ async def lifespan(app: FastAPI):
     logger.info("Healthcare AI Assistant shutting down.")
 
 
-#   App factory     
+# ── App factory  ────────
 
 app = FastAPI(
     title="Healthcare AI Assistant",
@@ -58,7 +58,7 @@ app.add_middleware(
 )
 
 
-#   Pydantic schemas    
+# ── Pydantic schemas  ───
 
 class IngestRequest(BaseModel):
     data_dir: Optional[str] = Field(
@@ -106,7 +106,7 @@ class HealthResponse(BaseModel):
     collection_stats: Dict[str, Any]
 
 
-#   Endpoints      
+# ── Endpoints  ──────────
 
 @app.get("/health", response_model=HealthResponse, tags=["System"])
 async def health_check():

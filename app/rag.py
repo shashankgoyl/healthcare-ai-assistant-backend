@@ -30,7 +30,7 @@ from app.embeddings import generate_embeddings, generate_single_embedding
 
 logger = logging.getLogger(__name__)
 
-#   ChromaDB client (module-level singleton)            
+# ── ChromaDB client (module-level singleton) ─────────────────────────────────
 
 os.makedirs(CHROMA_PERSIST_DIR, exist_ok=True)
 
@@ -45,7 +45,7 @@ def get_collection() -> chromadb.Collection:
     )
 
 
-#   Document chunking   
+# ── Document chunking  ─
 
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> List[str]:
     """
@@ -71,7 +71,7 @@ def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVE
     return chunks
 
 
-#   Ingestion     
+# ── Ingestion  ─────────
 
 def ingest_documents(data_dir: Optional[str] = None) -> Dict[str, Any]:
     """
@@ -166,7 +166,7 @@ def _read_file(file_path: Path) -> str:
         return file_path.read_text(encoding="utf-8", errors="ignore")
 
 
-#   Retrieval     
+# ── Retrieval  ─────────
 
 def retrieve_relevant_chunks(
     query: str,

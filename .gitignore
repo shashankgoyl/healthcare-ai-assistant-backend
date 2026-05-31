@@ -20,8 +20,7 @@ htmlcov/
 .env.local
 .env.*.local
 
-# Vector store
-vector_store/
+
 
 # Node / Frontend
 node_modules/

@@ -1,41 +1,41 @@
-# 🏥 Healthcare AI Assistant
+#  Healthcare AI Assistant
 
 A production-ready **Retrieval-Augmented Generation (RAG)** AI assistant that answers healthcare questions from a curated set of clinical and operational documents.
 
-**Backend** → Python (FastAPI) — deploy on **Koyeb**  
+**Backend** → Python (FastAPI) — deploy on **Render**  
 **Frontend** → React + Vite — deploy on **Netlify**
 
 ---
 
-## 📐 Architecture
+##  Architecture
 
 ```
 User Question
      │
      ▼
-┌             ┐
+┌────────────────────────────────────────────┐
 │              FastAPI Backend               │
 │                                            │
 │  POST /ask                                 │
 │     │                                      │
 │     ▼                                      │
-│  ┌           ┐   │
+│  ┌─────────────────────────────────────┐   │
 │  │          Agent Router               │   │
 │  │  detect_intent(question)            │   │
-│  └   ┬      ┬    ┘   │
+│  └──────┬──────────────────┬───────────┘   │
 │         │ appointment      │ rag            │
 │         ▼                  ▼               │
-│  ┌     ┐   ┌      ┐     │
+│  ┌────────────┐   ┌──────────────────┐     │
 │  │ Mock Tool  │   │   RAG Pipeline   │     │
 │  │ check_     │   │                  │     │
 │  │ available_ │   │ 1. Embed query   │     │
 │  │ slots()    │   │ 2. ChromaDB      │     │
-│  └     ┘   │    similarity    │     │
+│  └────────────┘   │    similarity    │     │
 │                   │    search        │     │
 │                   │ 3. Groq LLM      │     │
 │                   │    generation    │     │
-│                   └      ┘     │
-└             ┘
+│                   └──────────────────┘     │
+└────────────────────────────────────────────┘
                    │
                    ▼
           Structured JSON Response
@@ -48,46 +48,46 @@ User Question
 
 ```
 healthcare-ai-assistant/
-├  app/
-│   ├  main.py          # FastAPI app, endpoints
-│   ├  rag.py           # Document ingestion, chunking, retrieval
-│   ├  embeddings.py    # sentence-transformers wrapper
-│   ├  llm.py           # Groq LLM integration + system prompt
-│   ├  agent.py         # Intent router + appointment mock tool
-│   └  config.py        # All config via env vars
-├  data/
-│   ├  discharge_instructions.txt
-│   ├  appointment_scheduling_policy.txt
-│   ├  insurance_eligibility_faq.txt
-│   ├  hipaa_privacy_guidelines.txt
-│   ├  medication_refill_policy.txt
-│   └  telehealth_guidelines.txt
-├  vector_store/        # ChromaDB persisted index
-├  tests/
-│   └  test_app.py      # Unit + integration tests
-├  frontend/
-│   ├  src/
-│   │   ├  App.jsx
-│   │   ├  pages/
-│   │   │   ├  ChatPage.jsx
-│   │   │   └  AdminPage.jsx
-│   │   ├  components/
-│   │   │   ├  Header.jsx
-│   │   │   ├  ChatMessage.jsx
-│   │   │   ├  ChatInput.jsx
-│   │   │   └  SuggestedQuestions.jsx
-│   │   ├  hooks/
-│   │   │   └  useChat.js
-│   │   └  utils/
-│   │       └  api.js
-│   ├  package.json
-│   ├  vite.config.js
-│   └  .env.example
-├  requirements.txt
-├  Dockerfile
-├  docker-compose.yml
-├  .env.example
-└  README.md
+├── app/
+│   ├── main.py          # FastAPI app, endpoints
+│   ├── rag.py           # Document ingestion, chunking, retrieval
+│   ├── embeddings.py    # sentence-transformers wrapper
+│   ├── llm.py           # Groq LLM integration + system prompt
+│   ├── agent.py         # Intent router + appointment mock tool
+│   └── config.py        # All config via env vars
+├── data/
+│   ├── discharge_instructions.txt
+│   ├── appointment_scheduling_policy.txt
+│   ├── insurance_eligibility_faq.txt
+│   ├── hipaa_privacy_guidelines.txt
+│   ├── medication_refill_policy.txt
+│   └── telehealth_guidelines.txt
+├── vector_store/        # ChromaDB persisted index
+├── tests/
+│   └── test_app.py      # Unit + integration tests
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── pages/
+│   │   │   ├── ChatPage.jsx
+│   │   │   └── AdminPage.jsx
+│   │   ├── components/
+│   │   │   ├── Header.jsx
+│   │   │   ├── ChatMessage.jsx
+│   │   │   ├── ChatInput.jsx
+│   │   │   └── SuggestedQuestions.jsx
+│   │   ├── hooks/
+│   │   │   └── useChat.js
+│   │   └── utils/
+│   │       └── api.js
+│   ├── package.json
+│   ├── vite.config.js
+│   └── .env.example
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+└── README.md
 ```
 
 ---
@@ -136,7 +136,7 @@ The agent uses keyword-based intent detection to route questions:
 ```
 question → detect_intent()
                │
-   ┌    ┴    ┐
+   ┌───────────┴──────────────┐
    │ "appointment"            │ "rag"
    ▼                          ▼
 check_available_slots()   RAG pipeline
@@ -256,10 +256,10 @@ curl -X POST http://localhost:8000/ingest -H "Content-Type: application/json" -d
 
 ## 🚢 Deployment
 
-### Backend → Koyeb
+### Backend →  Render
 
 1. Push your code to GitHub.
-2. Go to [koyeb.com](https://app.koyeb.com) → **Create Service** → **GitHub**.
+2. Go to [ Render.com](https://app. Render.com) → **Create Service** → **GitHub**.
 3. Select your repository.
 4. Set **Build command**: `pip install -r requirements.txt`
 5. Set **Run command**: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
@@ -268,7 +268,7 @@ curl -X POST http://localhost:8000/ingest -H "Content-Type: application/json" -d
    - `ALLOWED_ORIGINS` = `https://your-app.netlify.app`
 7. After deploy, call `POST /ingest` once to populate the vector store.
 
-> **Note**: On Koyeb free tier, the filesystem is ephemeral. For persistence, mount a volume or use a hosted vector DB (e.g. Pinecone, Weaviate Cloud).
+> **Note**: On  Render free tier, the filesystem is ephemeral. For persistence, mount a volume or use a hosted vector DB (e.g. Pinecone, Weaviate Cloud).
 
 ### Frontend → Netlify
 
@@ -279,7 +279,7 @@ curl -X POST http://localhost:8000/ingest -H "Content-Type: application/json" -d
    - **Build command**: `npm run build`
    - **Publish directory**: `frontend/dist`
 4. Add environment variable:
-   - `VITE_API_URL` = `https://your-backend.koyeb.app`
+   - `VITE_API_URL` = `https://your-backend. Render.app`
 5. Deploy!
 
 ---
