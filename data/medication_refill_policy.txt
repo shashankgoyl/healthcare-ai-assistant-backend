@@ -1,0 +1,101 @@
+MEDICATION REFILL POLICY
+Document ID: DOC-005
+Version: 2.3
+Last Updated: 2024-01-25
+
+=== MEDICATION REFILL GUIDELINES ===
+
+OVERVIEW:
+This policy governs the process for requesting prescription medication refills at our facility. Patients are encouraged to plan ahead and request refills well before their medication supply runs out.
+
+STANDARD REFILL PROCESS:
+1. Submit refill requests at least 72 hours (3 business days) before your medication runs out.
+2. Refill requests can be submitted via:
+   - Patient portal (preferred method)
+   - Pharmacy fax directly to prescriber
+   - Phone call to the prescriber's office
+   - Telehealth visit for eligible medications
+   - In-person visit if required
+3. Allow 2-3 business days for processing unless urgent.
+4. Your pharmacy will be notified when the refill is approved.
+
+ELIGIBLE MEDICATIONS FOR REFILL:
+Routine refills are generally approved for:
+- Chronic condition medications (blood pressure, diabetes, thyroid, cholesterol)
+- Psychiatric medications (with psychiatrist or prescriber approval)
+- Hormonal therapies and contraceptives
+- Allergy medications
+- Preventive medications
+
+CONTROLLED SUBSTANCES:
+Controlled substances (Schedule II-V) have special requirements:
+- Schedule II medications (e.g., Adderall, Ritalin, opioids) CANNOT be refilled; a new prescription is required each time.
+- Schedule III-V medications may be refilled up to 5 times within 6 months.
+- Early refills for controlled substances are generally not permitted.
+- Patients must have an active patient-provider relationship and recent in-person evaluation.
+- Lost or stolen controlled substance prescriptions require a police report.
+- Out-of-state transfers for controlled substances are very limited and require prescriber approval.
+
+TELEHEALTH REFILLS:
+Medication refill requests may be reviewed and approved during telehealth visits under the following conditions:
+- The medication is already prescribed and the patient has an established relationship with the prescriber.
+- The medication does not require a new physical examination or new lab work.
+- The patient's condition is stable and well-controlled.
+- Schedule II controlled substances cannot be prescribed via telehealth (in most states).
+- The prescriber determines that in-person evaluation is not required.
+- Telehealth platforms used must comply with DEA and state regulations for prescribing.
+
+REFILLS REQUIRING AN OFFICE VISIT:
+The following require an in-person appointment before a refill can be approved:
+- New symptoms or changes in condition
+- Medications requiring current lab results (e.g., warfarin, lithium, methotrexate)
+- Annual or periodic monitoring required by standard of care
+- First refill of certain high-risk medications
+- Controlled substances requiring regular evaluation
+- Any medication with safety concerns identified
+
+VACATION/TRAVEL REFILLS:
+- Advance supply of up to 90 days may be provided for travel with prior approval.
+- Submit vacation refill requests at least 5 business days in advance.
+- Controlled substances have strict limits on early or vacation refills.
+- International travelers should consult with prescriber about local regulations.
+
+REFILL DENIALS:
+A refill may be denied for the following reasons:
+- Missing required lab work or monitoring
+- Overdue office visit
+- Safety concerns with current dosage or drug interactions
+- Controlled substance policy violations
+- Expired prescription
+- Insurance prior authorization issues
+If your refill is denied, you will be notified of the reason and next steps.
+
+AFTER-HOURS EMERGENCY REFILLS:
+For urgent medication needs outside of business hours:
+- Contact the on-call provider through the main hospital line.
+- A short supply (3-7 days) may be provided to bridge until an office visit.
+- This does not apply to controlled substances except in genuine emergencies.
+
+PRESCRIPTION TRANSFERS:
+- Non-controlled prescriptions can be transferred to another pharmacy of your choice.
+- Controlled substance transfers are restricted and must comply with DEA regulations.
+- Contact your current pharmacy to initiate a transfer.
+
+MAIL-ORDER PHARMACY:
+- Many insurance plans offer mail-order pharmacy services for 90-day supplies at reduced cost.
+- Best suited for maintenance medications for chronic conditions.
+- Allow 7-10 business days for initial delivery; 5 days for refills.
+- Inquire with your insurance plan about mail-order benefits.
+
+MEDICATION DISPOSAL:
+- Unused or expired medications should be disposed of safely.
+- Many pharmacies offer medication take-back programs.
+- Do not flush medications unless the label specifically says to do so.
+- Contact local DEA-authorized collection sites for controlled substances.
+
+PATIENT RESPONSIBILITIES:
+- Monitor your medication supply and request refills in a timely manner.
+- Keep all scheduled appointments required for ongoing prescriptions.
+- Report any side effects or changes in your condition promptly.
+- Notify us of any new medications prescribed by other providers.
+- Store medications as directed and keep out of reach of children.

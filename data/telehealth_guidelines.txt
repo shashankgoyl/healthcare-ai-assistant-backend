@@ -1,0 +1,118 @@
+TELEHEALTH CONSULTATION GUIDELINES
+Document ID: DOC-006
+Version: 3.1
+Last Updated: 2024-02-05
+
+=== TELEHEALTH SERVICES OVERVIEW ===
+
+WHAT IS TELEHEALTH?
+Telehealth refers to the delivery of healthcare services using digital communication technologies such as video calls, phone consultations, and secure messaging. Our telehealth platform allows patients to connect with licensed healthcare providers from the comfort of their home or any private location.
+
+AVAILABLE TELEHEALTH SERVICES:
+- Primary care consultations
+- Follow-up visits for established patients
+- Mental health and behavioral health therapy
+- Medication management and refill reviews
+- Chronic disease management (diabetes, hypertension, asthma)
+- Dermatology consultations (photo-based)
+- Nutrition counseling
+- Post-surgical follow-ups (non-wound related)
+- Pediatric sick visits (for non-emergency conditions)
+- Preventive care counseling
+- Lab results review and consultation
+
+SERVICES NOT AVAILABLE VIA TELEHEALTH:
+The following require in-person evaluation:
+- Physical examinations requiring hands-on assessment
+- Procedures (injections, biopsies, wound care)
+- Emergency or urgent situations (call 911)
+- Initial evaluation for certain conditions
+- New prescriptions for controlled substances (in most cases)
+- Imaging, lab draws, or diagnostic tests
+- Situations where a physical exam is clinically necessary
+
+TECHNICAL REQUIREMENTS:
+To participate in a telehealth visit, you will need:
+- A smartphone, tablet, laptop, or desktop computer
+- A working camera and microphone
+- A stable internet connection (minimum 5 Mbps recommended)
+- A private, quiet location
+- Download or access to our telehealth platform (instructions provided at scheduling)
+- For phone-only visits: a phone with clear reception
+
+SCHEDULING A TELEHEALTH APPOINTMENT:
+1. Log into the patient portal or call scheduling.
+2. Select "Telehealth" as your visit type.
+3. Choose your provider and preferred date/time.
+4. Receive a confirmation email or SMS with connection link.
+5. Test your technology at least 30 minutes before the visit.
+6. Log in 5 minutes before your scheduled time.
+7. Complete any pre-visit forms sent to your portal.
+
+WHAT TO EXPECT DURING YOUR TELEHEALTH VISIT:
+- A care team member may check in with you before the provider joins.
+- Have your medication list ready.
+- Have a list of questions or concerns prepared.
+- Be in a private, well-lit area.
+- The visit will be documented in your medical record.
+- Prescriptions may be sent electronically to your preferred pharmacy.
+- Follow-up instructions will be provided via the patient portal.
+
+PRIVACY AND SECURITY:
+- All telehealth sessions are encrypted and HIPAA-compliant.
+- Sessions are not recorded without explicit patient consent.
+- Do not join from a public location where your conversation may be overheard.
+- Providers are in private clinical settings.
+- Our platform meets all federal and state telehealth regulations.
+
+TELEHEALTH FOR MENTAL HEALTH:
+- Video sessions are preferred for mental health therapy.
+- Phone sessions available when video is not feasible.
+- Crisis situations require immediate in-person or emergency services — telehealth is not appropriate for acute psychiatric emergencies.
+- Prescriptions for psychiatric medications may be managed via telehealth for established patients.
+- Group therapy sessions may also be available via telehealth.
+
+PEDIATRIC TELEHEALTH:
+- A parent or legal guardian must be present for all pediatric telehealth visits.
+- Minors 12 and older may have some services available with parental consent.
+- Common uses: sick visits, behavioral health, follow-up after urgent care.
+- Not suitable for: rashes requiring close examination, ear infections (requires otoscope), or respiratory distress.
+
+TELEHEALTH BILLING AND INSURANCE:
+- Most insurance plans, including Medicare and Medicaid, cover telehealth visits.
+- Copays and coinsurance still apply.
+- Coverage may vary by plan and service type; verify with your insurance.
+- Self-pay rates for telehealth are typically lower than in-person visits.
+- An itemized bill will be sent to your address or accessible via portal.
+
+MEDICATION PRESCRIBING VIA TELEHEALTH:
+- Providers can prescribe most non-controlled medications via telehealth.
+- Medication refill requests may be reviewed during telehealth visits for established patients.
+- Schedule II controlled substances generally cannot be prescribed via telehealth.
+- Schedule III-V controlled substances may be prescribed in limited circumstances per DEA regulations.
+- Emergency prescribing exceptions exist during declared public health emergencies.
+
+INTERSTATE TELEHEALTH:
+- Providers must be licensed in the state where the patient is located.
+- Our providers are licensed in select states; confirm availability for your location.
+- Certain prescription rules vary by state.
+
+TECHNICAL ISSUES:
+- If you experience technical difficulties, call our telehealth support line.
+- If a visit is disconnected, your provider will attempt to reconnect or call you.
+- Reschedule at no charge if the visit cannot be completed due to technical issues on our end.
+
+CANCELLATION POLICY:
+- Cancel telehealth appointments at least 24 hours in advance.
+- Late cancellations and no-shows are subject to the same fees as in-person visits.
+- You will receive a reminder 48 hours before your appointment.
+
+TELEHEALTH ETIQUETTE:
+- Dress appropriately (as you would for an in-person visit).
+- Ensure good lighting so the provider can observe you clearly.
+- Minimize background distractions and noise.
+- Have someone available to assist you if needed.
+- Be punctual; the provider may move on to the next patient if you are significantly late.
+
+LIMITATIONS OF TELEHEALTH:
+Telehealth is a convenient option but has limitations. Your provider will advise if an in-person visit is necessary. Do not rely on telehealth for emergency situations — always call 911 or go to the nearest emergency room for life-threatening conditions.

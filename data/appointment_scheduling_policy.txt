@@ -1,0 +1,86 @@
+APPOINTMENT SCHEDULING POLICY
+Document ID: DOC-002
+Version: 3.0
+Last Updated: 2024-02-01
+
+=== APPOINTMENT SCHEDULING GUIDELINES ===
+
+OVERVIEW:
+Our scheduling policy ensures patients receive timely, appropriate care while optimizing provider availability across all departments.
+
+SCHEDULING METHODS:
+1. Online Portal: Available 24/7 at patient portal website
+2. Phone: Call scheduling department during business hours (Mon-Fri, 8AM-6PM)
+3. Mobile App: Book appointments through our official app
+4. In-Person: Visit registration desk at any facility location
+5. Telehealth: Available for qualifying appointments through the online portal
+
+APPOINTMENT TYPES AND AVAILABILITY:
+- Routine Check-ups: 2-4 weeks advance scheduling recommended
+- Specialist Consultations: 1-6 weeks depending on specialty and urgency
+- Urgent Care Appointments: Same-day or next-day availability
+- Annual Wellness Exams: Schedule up to 6 months in advance
+- Follow-up Appointments: Scheduled before leaving the facility or within 48 hours post-discharge
+- Telehealth Appointments: Available 7 days per week, 7AM-9PM
+
+DEPARTMENTS AND SCHEDULING WINDOWS:
+- Primary Care: Monday through Friday, 8AM-5PM; Saturday 9AM-12PM
+- Cardiology: Monday, Wednesday, Friday 9AM-4PM
+- Orthopedics: Tuesday, Thursday 8AM-3PM
+- Dermatology: Monday through Thursday 10AM-4PM
+- Neurology: Wednesday and Friday 9AM-3PM
+- Pediatrics: Monday through Friday 8AM-6PM; Saturday 9AM-1PM
+- OB/GYN: Monday through Friday 9AM-5PM
+- Mental Health: Monday through Friday 8AM-7PM; Saturday 9AM-2PM
+- Oncology: By referral only; Monday through Thursday
+- Radiology/Imaging: Daily 7AM-8PM; walk-ins accepted for certain tests
+
+CANCELLATION POLICY:
+- Cancellations must be made at least 24 hours before the appointment.
+- Late cancellations (less than 24 hours notice) may incur a fee.
+- No-show appointments may result in a $50 administrative fee.
+- Three no-shows within 12 months may result in scheduling restrictions.
+- Emergency cancellations due to illness or family emergencies are exempt from fees with documentation.
+
+RESCHEDULING:
+- Rescheduling requests should be made at least 24 hours in advance.
+- Patients can reschedule online, by phone, or through the mobile app.
+- Priority rescheduling is given to patients with urgent medical needs.
+
+NEW PATIENT APPOINTMENTS:
+- New patients must complete registration forms 48 hours before their appointment.
+- Insurance verification is required prior to scheduling for non-emergency visits.
+- New patients should arrive 20 minutes early to complete paperwork.
+- Photo ID and insurance card are required at check-in.
+
+INSURANCE AND PAYMENT:
+- Insurance eligibility is verified at the time of scheduling.
+- Co-pays are due at time of service.
+- Patients without insurance should inquire about self-pay options and payment plans.
+- Pre-authorization may be required for specialist visits; allow 3-5 business days.
+
+SPECIAL ACCOMMODATIONS:
+- Wheelchair accessible appointments available at all locations.
+- Language interpreters available with 48-hour notice.
+- Home visit appointments available for qualifying patients with mobility limitations.
+- Priority appointments available for patients with urgent medical needs.
+
+APPOINTMENT REMINDERS:
+- Automated reminders sent via SMS, email, or phone call 48 hours before appointments.
+- Patients can confirm, cancel, or reschedule via reminder links.
+- Additional reminders sent 2 hours before appointment.
+
+WAIT TIME POLICY:
+- Patients who arrive more than 15 minutes late may be asked to reschedule.
+- Average wait time for scheduled appointments is 10-15 minutes.
+- Walk-in patients are seen in order of arrival and medical urgency.
+
+PEDIATRIC APPOINTMENTS:
+- Parents or legal guardians must accompany minors under 18.
+- Bring immunization records to all pediatric visits.
+- After-hours pediatric nurse line available for urgent questions.
+
+REFERRAL PROCESS:
+- Primary care provider referrals required for most specialty appointments.
+- Referrals valid for 90 days from issue date.
+- Self-referrals accepted for dermatology, gynecology, and mental health.

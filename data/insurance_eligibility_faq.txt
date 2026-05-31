@@ -1,0 +1,90 @@
+INSURANCE ELIGIBILITY FAQ
+Document ID: DOC-003
+Version: 1.5
+Last Updated: 2024-01-20
+
+=== FREQUENTLY ASKED QUESTIONS: INSURANCE ELIGIBILITY ===
+
+Q1: How do I know if my insurance is accepted at your facility?
+A: We accept most major insurance plans including Medicare, Medicaid, and commercial insurers. Contact our billing department or visit the patient portal to verify your specific plan. You can also call your insurance provider directly and ask if our facility is "in-network."
+
+Q2: What is the difference between in-network and out-of-network coverage?
+A: In-network providers have a contracted rate with your insurance company, resulting in lower out-of-pocket costs. Out-of-network providers have no such contract, which typically means higher costs for you. Always confirm your provider's network status before your appointment to avoid unexpected bills.
+
+Q3: How do I verify my insurance eligibility before an appointment?
+A: You can verify eligibility by:
+- Calling the member services number on your insurance card
+- Logging into your insurance provider's patient portal
+- Contacting our billing department with your insurance information
+- Using our online pre-verification tool (available on patient portal)
+Verification is recommended at least 3 days before your appointment.
+
+Q4: What information do I need to provide for insurance verification?
+A: You will need:
+- Insurance card (front and back)
+- Policy holder's full name and date of birth
+- Member ID number
+- Group number (if applicable)
+- Relationship to policy holder
+- Photo identification
+
+Q5: What happens if my insurance cannot be verified?
+A: If we cannot verify your insurance in time, you may be asked to:
+- Provide a deposit equal to estimated patient responsibility
+- Pay as a self-pay patient and submit for reimbursement later
+- Reschedule until insurance is verified
+- Contact your insurance company to resolve any issues
+
+Q6: What does "prior authorization" mean?
+A: Prior authorization (also called pre-authorization or pre-approval) is approval from your insurance company before you receive certain medical services, procedures, or medications. Without prior authorization when required, your insurance may deny the claim. Our staff will help initiate prior authorization requests, which typically take 3-7 business days.
+
+Q7: What services typically require prior authorization?
+A: Services commonly requiring prior authorization include:
+- Elective surgeries and procedures
+- MRI, CT scans, and advanced imaging
+- Physical therapy (beyond initial visits)
+- Specialty medications
+- Home health services
+- Durable medical equipment
+- Mental health residential treatment
+- Out-of-network services
+
+Q8: Does Medicare cover all my medical costs?
+A: Medicare has several parts:
+- Part A: Hospital insurance (inpatient care, skilled nursing, hospice)
+- Part B: Medical insurance (outpatient care, preventive services, doctor visits)
+- Part C (Medicare Advantage): Combines A and B, often with additional benefits
+- Part D: Prescription drug coverage
+Medicare does not cover everything. Costs such as copays, deductibles, and coinsurance still apply. Medigap (Medicare Supplement) policies can help cover remaining costs.
+
+Q9: What is a deductible and how does it affect my costs?
+A: A deductible is the amount you pay out-of-pocket for healthcare services before your insurance starts paying. For example, if your deductible is $1,000, you pay the first $1,000 of covered services each year. After meeting your deductible, your insurance pays its share (coinsurance) for covered services.
+
+Q10: What is a copay vs coinsurance?
+A: A copay is a fixed amount you pay for a specific service (e.g., $30 for a primary care visit). Coinsurance is your share of costs after meeting your deductible, expressed as a percentage (e.g., you pay 20%, insurance pays 80%). Some services may have both.
+
+Q11: What is an out-of-pocket maximum?
+A: The out-of-pocket maximum is the most you will have to pay for covered services in a plan year. After reaching this limit, your insurance pays 100% of covered services for the remainder of the year. This does not include premiums or costs for out-of-network services.
+
+Q12: How does Medicaid eligibility work?
+A: Medicaid is a joint federal and state program providing health coverage to eligible low-income individuals and families. Eligibility is based on income, household size, age, disability status, and other factors. To check eligibility, contact your state Medicaid office or healthcare.gov. Our patient advocates can assist with Medicaid applications.
+
+Q13: What if I lose my insurance coverage?
+A: If you lose coverage:
+- You have a Special Enrollment Period (SEP) to enroll in a new plan
+- COBRA allows continued coverage from your previous employer for up to 18-36 months (at full premium cost)
+- Marketplace plans are available at healthcare.gov
+- Medicaid or CHIP may be available if you meet income requirements
+- Contact our financial assistance team for self-pay options
+
+Q14: Do you offer financial assistance for uninsured patients?
+A: Yes. We offer:
+- Sliding scale fees based on income
+- Interest-free payment plans
+- Charity care programs for qualifying patients
+- Assistance with insurance enrollment
+- Connection to community resources
+Contact our Patient Financial Services department for details.
+
+Q15: What is a coordination of benefits (COB)?
+A: If you have more than one insurance plan, coordination of benefits determines which plan pays first (primary) and which pays second (secondary). You must inform us of all insurance plans. The secondary plan may cover some or all costs not covered by the primary plan.

@@ -1,0 +1,115 @@
+HIPAA PRIVACY AND SECURITY GUIDELINES
+Document ID: DOC-004
+Version: 4.0
+Last Updated: 2024-01-10
+
+=== HIPAA PRIVACY AND SECURITY OVERVIEW ===
+
+WHAT IS HIPAA?
+The Health Insurance Portability and Accountability Act (HIPAA) of 1996 is a federal law that sets national standards for protecting sensitive patient health information. HIPAA includes the Privacy Rule, the Security Rule, and the Breach Notification Rule.
+
+PROTECTED HEALTH INFORMATION (PHI):
+PHI includes any individually identifiable health information that relates to:
+- Past, present, or future physical or mental health conditions
+- Provision of healthcare to an individual
+- Past, present, or future payment for healthcare
+
+PHI identifiers include:
+- Name, address, dates (birth, admission, discharge)
+- Phone numbers, fax numbers, email addresses
+- Social Security numbers, medical record numbers
+- Health plan beneficiary numbers, account numbers
+- Certificate/license numbers, VINs, device identifiers
+- Web URLs, IP addresses, biometric identifiers
+- Full-face photographs, any other unique identifying number
+
+PATIENT RIGHTS UNDER HIPAA:
+1. Right to Access: Patients have the right to inspect and receive copies of their health records. Requests must be fulfilled within 30 days (one 30-day extension permitted).
+
+2. Right to Amend: Patients may request corrections to their health records if they believe information is inaccurate or incomplete.
+
+3. Right to Accounting of Disclosures: Patients can request a list of who has received their PHI for purposes other than treatment, payment, or healthcare operations.
+
+4. Right to Restrict: Patients may request restrictions on how their information is used or disclosed, though covered entities are not always required to agree.
+
+5. Right to Confidential Communications: Patients can request that communications occur through alternative means or at alternative locations.
+
+6. Right to Notice: Patients have the right to receive the facility's Notice of Privacy Practices.
+
+7. Right to File a Complaint: Patients may file complaints with the facility or with the U.S. Department of Health and Human Services (HHS).
+
+PERMITTED USES AND DISCLOSURES:
+PHI may be used or disclosed without patient authorization for:
+- Treatment purposes (sharing between treating providers)
+- Payment (billing and claims processing)
+- Healthcare operations (quality improvement, training, audits)
+- Public health activities (disease reporting, FDA reporting)
+- Law enforcement as required by law
+- Emergency situations
+- Judicial proceedings (court orders, subpoenas)
+- Research with proper protocols and IRB approval
+
+REQUIRED AUTHORIZATIONS:
+Written patient authorization is required for:
+- Marketing purposes
+- Sale of PHI
+- Most research uses
+- Psychotherapy notes
+- Substance abuse treatment records (42 CFR Part 2)
+
+MINIMUM NECESSARY STANDARD:
+When using or disclosing PHI, only the minimum necessary information should be shared to accomplish the intended purpose. This applies to routine disclosures but not to treatment disclosures between providers.
+
+SECURITY RULE OVERVIEW:
+The Security Rule applies specifically to electronic PHI (ePHI) and requires:
+
+Administrative Safeguards:
+- Security management process including risk analysis
+- Assigned security responsibility
+- Workforce training and access management
+- Evaluation of security measures
+
+Physical Safeguards:
+- Facility access controls
+- Workstation use policies
+- Device and media controls
+
+Technical Safeguards:
+- Access controls (unique user IDs, emergency access procedures)
+- Audit controls
+- Integrity controls
+- Transmission security (encryption)
+
+BREACH NOTIFICATION:
+A breach is an impermissible use or disclosure of unsecured PHI. If a breach occurs:
+- Affected individuals must be notified within 60 days
+- The Secretary of HHS must be notified
+- Breaches affecting 500+ individuals require media notification in the affected state
+- A breach risk assessment should be conducted to determine if notification is required
+
+BUSINESS ASSOCIATE AGREEMENTS (BAAs):
+Any vendor, contractor, or business partner who handles PHI on behalf of a covered entity must sign a Business Associate Agreement. This agreement outlines the permitted uses, required safeguards, and liability.
+
+PENALTIES FOR VIOLATIONS:
+- Tier 1 (unknowing): $100–$50,000 per violation
+- Tier 2 (reasonable cause): $1,000–$50,000 per violation
+- Tier 3 (willful neglect, corrected): $10,000–$50,000 per violation
+- Tier 4 (willful neglect, not corrected): $50,000+ per violation
+- Criminal penalties may also apply for intentional misuse
+
+PATIENT RESPONSIBILITIES:
+- Provide accurate information to support your care
+- Inform us of any changes to your contact information
+- Notify us if you wish to limit who can access your information
+- Review your Notice of Privacy Practices
+
+STAFF RESPONSIBILITIES:
+- Complete annual HIPAA training
+- Access only PHI necessary for job duties
+- Report suspected breaches immediately
+- Never share login credentials
+- Secure devices and lock screens when not in use
+- Do not discuss patient information in public areas
+
+FOR QUESTIONS OR COMPLAINTS:
+Contact our Privacy Officer or submit concerns through the patient portal. You may also contact the HHS Office for Civil Rights.
