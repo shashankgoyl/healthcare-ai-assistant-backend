@@ -24,7 +24,7 @@ LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.1"))
 
 # ── Embedding Configuration ──────────────────────────────────────────────────
 EMBEDDING_MODEL: str = os.getenv(
-    "EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2"
+    "EMBEDDING_MODEL", "all-MiniLM-L6-v2"
 )
 
 # ── Vector Store Configuration ───────────────────────────────────────────────
