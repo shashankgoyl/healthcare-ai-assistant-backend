@@ -12,7 +12,7 @@ RUN pip install --upgrade pip \
 
 RUN python -c "\
 from sentence_transformers import SentenceTransformer; \
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2'); \
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2'); \
 print('Model downloaded OK.')"
 
 
