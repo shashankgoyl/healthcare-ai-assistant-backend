@@ -4,8 +4,8 @@ pydantic
 httpx
 python-dotenv
 chromadb
-sentence-transformers
-torch
+numpy
+scikit-learn
 pdfplumber
 pytest
 pytest-asyncio
