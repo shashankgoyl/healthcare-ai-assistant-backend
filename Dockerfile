@@ -10,11 +10,6 @@ COPY requirements.txt .
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-RUN python -c "\
-from sentence_transformers import SentenceTransformer; \
-model = SentenceTransformer('paraphrase-MiniLM-L3-v2'); \
-print('Model downloaded OK.')"
-
 
 FROM python:3.11-slim AS runtime
 
