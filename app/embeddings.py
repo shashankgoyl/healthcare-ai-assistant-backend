@@ -1,44 +1,30 @@
-"""
-Lightweight embeddings using scikit-learn TF-IDF vectorizer.
-Zero model download, ~5MB RAM — works on Render free tier.
-"""
 import logging
-import pickle
-import os
-from typing import List
+import hashlib
 import numpy as np
+from typing import List
 
 logger = logging.getLogger(__name__)
 
-# We use a simple hash-based embedding that needs no downloads
+
 def _hash_embed(text: str, dim: int = 384) -> List[float]:
-    """
-    Deterministic embedding via character n-gram hashing.
-    No model download needed. Good enough for small document sets.
-    """
-    import hashlib
-    vec = np.zeros(dim, dtype=np.float32)
-    # sliding window of word n-grams
+    vec = [0.0] * dim
     words = text.lower().split()
     ngrams = []
-    for n in range(1, 4):  # unigrams, bigrams, trigrams
+    for n in range(1, 4):
         for i in range(len(words) - n + 1):
             ngrams.append(" ".join(words[i:i+n]))
     for ng in ngrams:
         h = int(hashlib.md5(ng.encode()).hexdigest(), 16)
-        idx = h % dim
-        vec[idx] += 1.0
-    # L2 normalize
-    norm = np.linalg.norm(vec)
+        vec[h % dim] += 1.0
+    norm = sum(x*x for x in vec) ** 0.5
     if norm > 0:
-        vec = vec / norm
-    return vec.tolist()
+        vec = [x / norm for x in vec]
+    return vec
 
 
 def generate_embeddings(texts: List[str]) -> List[List[float]]:
     if not texts:
         return []
-    logger.debug("Generating hash embeddings for %d texts", len(texts))
     return [_hash_embed(t) for t in texts]
 
 
