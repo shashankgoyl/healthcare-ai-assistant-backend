@@ -36,8 +36,8 @@ CHROMA_PERSIST_DIR: str = str(VECTOR_STORE_DIR)
 # ── RAG Configuration  ─
 CHUNK_SIZE: int = int(os.getenv("CHUNK_SIZE", "500"))
 CHUNK_OVERLAP: int = int(os.getenv("CHUNK_OVERLAP", "100"))
-TOP_K_RESULTS: int = int(os.getenv("TOP_K_RESULTS", "4"))
-SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.3"))
+TOP_K_RESULTS: int = int(os.getenv("TOP_K_RESULTS", "6"))
+SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.1"))
 
 # ── API Configuration  ─
 API_HOST: str = os.getenv("API_HOST", "0.0.0.0")
